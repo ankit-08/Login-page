@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif,Abril Fatface;
+  background: -webkit-linear-gradient(to right, #155799, #4FD6F7);  
+  background: linear-gradient(to right, #155799, #4FD6F7); 
+  color:whitesmoke;
+  
+}
+.navbar{
+  height: 120px;
+  width: 100%;
+  padding: 14px 30px;
+  background-color:transparent;
+  position: relative;
+}
+.navbar .nav-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-header .nav-logo img{
+  width: 100px;
+ border-radius: 50px;
+}
+.navbar .nav-header .c-name h1{
+  font-style: Abril Fatface;
+  font-size: 50px;
+}
+span {
+  color: #155799;
+}
+
+/* mine */
+.menu{
+  height: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgba(35, 34, 34, 0.438);
+  
+}
+.btn{
+  width: 80px;
+  height:30px; 
+  
+  margin: 5px 15px 5px 15px; 
+  background-color: beige;
+  border-color: transparent;
+  border-radius: 20px;
+  }
+.btn a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #155799;
+}
+
+.btn:hover{
+  border: solid;
+border-color: rgb(107, 105, 105);
+  
+}
+
+
+/* mine end */

@@ -1,0 +1,24 @@
+.main{
+    margin-top:50px ;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+.contact{
+    margin-top: 50px;
+    padding: 10px 20px 20px 20px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 20px;
+}
+
+.main  p, h3{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.vl {
+    border-right: 3px solid rgb(0, 0, 0);
+    height: 80vh;
+    
+  }
